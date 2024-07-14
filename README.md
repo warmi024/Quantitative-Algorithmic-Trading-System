@@ -13,7 +13,7 @@ This file will contain explanation of more complex concepts presented in my algo
    
   The heart of the strategy will be so called demand zones. A demand level is an area where investors are expected to be more inclined to buy an asset, potentially leading to price increases. In this system I utilize stoplosses as well as take profit order that allow traders to secure profit or limit the potencial loss of capital. The returns (Y-variable) of the strategy are coded in two different ways: one uses binary data (0 for loss, 1 for win), and the other uses a continuous outcome variable. This dual approach allows for capturing information on the possible duration of a trade while also enabling the use of binary models like logistic regression, as well as OLS models. To limit amount of signals I use 5 minute timeframe and signals are valid only after market is open (amount of signals pre-open is closed to 0). I also filter out too small structures to limit amount of payed fees.
 
-![image](https://github.com/user-attachments/assets/e8aa545c-80f5-4a69-bfb5-14be89fbf0ed)
+   ![image](https://github.com/user-attachments/assets/e8aa545c-80f5-4a69-bfb5-14be89fbf0ed)
 
 2. Concepts used
    
