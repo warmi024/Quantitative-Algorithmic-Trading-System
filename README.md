@@ -1,5 +1,5 @@
 # Quantitative-Algorithmic-Trading-System
-This repository showcases one of my trading algorithms, along with its integration with the Bybit API.
+This repository showcases one of my trading algorithms, along with integration with the Bybit API.
 It is worth noting that I will be sharing only a part of my trading system. The price data utilized in this project cannot be shared due to licensing restrictions.
 
 This file will contain explanation of more complex concepts presented in my algorithm with images for easier understading. Code is showcased in .ipynb script with all the code and functions inside, normally I would separate main code and functions, but that way it will be easier to present. Parts of the code that can be used in various strategies are written in functions, but this system specific parts are simply in the main code. It is also important that almost at the beginning of the algorithm we are creating a slice of data to avoid look-ahead bias.
