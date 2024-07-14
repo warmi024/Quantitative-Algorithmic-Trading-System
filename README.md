@@ -47,4 +47,4 @@ This file will contain explanation of more complex concepts presented in my algo
 
 4. Integrating trading systems with API
 
-   Another file .py is a short implementation showcase of other strategy in live markets. It uses API of bybit broker and its websocket function, that enables us to live stream new market data into our model. We receive data every single second, so algorithm detects when candles close and then runs main code, which calculated probability of a win and sends order to the broker, with certain size, order price and set up take profit and stop loss orders.
+   Another file .py is a short implementation showcase of other strategy in live markets. It uses API of bybit broker and its websocket function, that enables us to live stream new market data into our model. We receive data every single second, so algorithm detects when candles closes and then runs main code, which calculated probability of a win and sends order to the broker, with certain size, order price and set up take profit and stop loss orders.
