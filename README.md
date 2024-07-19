@@ -46,6 +46,7 @@ This file will contain explanation of more complex concepts presented in my algo
    After visualization and optimization I have created a backtest of this system using different combinations of variables. Logit model is used for calculating probability of each observations, based on which we take or do not take certain trade into consideration. Probability can be calculated based on whole model or just lookback period to adjust model for changing market conditions, such as trend. Chart of the tested asset is plotted as well as returns chart from the strategy and drawdown chart with some additional statistics in the table below. Plotting assest price is important, so we can see if model is actually capable of predicting market movement and not only following its overall direction. Presented model, which can be seen in the .ipynb is profitable regardless of market movement direction, which proves its usefulness.
 
 4. Key takeaways
+   
    -Statistically Significant Variables: Identifying statistically significant variables can help predict market movement direction effectively.
 
    -Variable Transformations: Using variables, their squared values, or their logarithms can be a powerful approach depending on the type of variable.
