@@ -47,29 +47,38 @@ This file will contain explanation of more complex concepts presented in my algo
 
 4. Key takeaways
    
-   -Statistically Significant Variables: Identifying statistically significant variables can help predict market movement direction effectively.
+   Statistically Significant Variables: Identifying statistically significant variables can help predict market movement direction effectively.
 
-   -Variable Transformations: Using variables, their squared values, or their logarithms can be a powerful approach depending on the type of variable.
+   Non-stationarity: Changing distributions of variables can lead to significant problems for models, causing them to make poor predictions. This issue must be addressed in the early stages of the project.
 
-   -Variable Interactions: Interactions between variables can be useful, especially for concepts like trend detection.
+   Profitalibity and statistical singificance: They are not necessarily correlated. While predictions may be strongly aligned with actual values, biases in the data can cause the model to fail miserably.
 
-   -Model Considerations: Different models, whether calculated on the whole dataset or just a lookback period, have their advantages and disadvantages. Trend variables might provide better results for adjusting models, while concepts like support/resistance might be more effective in standard models.
+   Walk-Forward Approach: Successfully implementing this method significantly enhances model performance, ensuring adaptability to changing market conditions.
 
-   -Market Condition Adaptability: Some models tend to follow the general market direction and are only profitable in bullish markets, while others can bring profits under various market conditions.
+   Variable Transformations: Using variables, their squared values, or their logarithms can be a powerful approach depending on the type of variable.
 
-   -Variable Usage: Each variable provides slight improvements to the model; therefore, the use of many variables is recommended.
+   Different machine learning models: All of used models present unique challenges that must be addressed individually, with adjustments to data and parameters tailored to each model. Models that capture non-linear relationships require larger datasets for accurate predictions and are more prone to overfitting. They are also more computationally demanding, which can lead to delays in production due to the time required for their calculations.
 
-   -Lookback Period Impact: Models with shorter lookback periods offer more transactions but at the cost of a decreased win rate, which can reduce profits and increase transaction costs.
+   Variable Interactions: Interactions between variables can be useful, especially for concepts like trend detection.
 
-   -Scaling Order Size: Adjusting order size based on the probability of trade might be beneficial for overall returns.
+   Model Considerations: Different models, whether calculated on the whole dataset or just a lookback period, have their advantages and disadvantages. Trend variables might provide better results for adjusting models, while concepts like support/resistance might be more effective in standard models.
 
-   -High R Variables: Using higher R variables as the target (Y) almost always yields better results. However, analyzing the average trade duration (which increases) may indicate this is due to a general bullish market trend.
+   Market Condition Adaptability: Some models tend to follow the general market direction and are only profitable in bullish markets, while others can bring profits under various market conditions.
 
-   -Impact of Fees: Transaction fees significantly reduce strategy effectiveness and can often render strategies unprofitable.
+   Variable Usage: Each variable provides slight improvements to the model; therefore, the use of many variables is recommended.
 
-   -Buy Threshold: Increasing the buy threshold might be beneficial in some cases but generally does not increase returns, as the number of trades significantly decreases.
+   Lookback Period Impact: Models with shorter lookback periods offer more transactions but at the cost of a decreased win rate, which can reduce profits and increase transaction costs.
 
-   -Algorithmic Trading Success: Algorithmic trading strategies can yield positive results if the selection of variables and other model parameters is done correctly.
+   Scaling Order Size: Adjusting order size based on the probability of trade might be beneficial for overall returns.
+
+   High R Variables: Using higher R variables as the target (Y) almost always yields better results. However, analyzing the average trade duration (which increases) may indicate this is due to a general bullish market trend.
+
+   Impact of Fees: Transaction fees significantly reduce strategy effectiveness and can often render strategies unprofitable.
+
+   Buy Threshold: Increasing the buy threshold might be beneficial in some cases, but generally does not increase returns, as the number of trades significantly decreases.
+
+   Algorithmic Trading Success: Algorithmic trading strategies can yield positive results if the selection of variables and other model parameters is done correctly.
+
 
 6. Integrating trading systems with API
 
